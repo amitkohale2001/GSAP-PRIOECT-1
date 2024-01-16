@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HeadPhone Sliding</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <section class="sec">
+        <div class="r">
+            <h1 class="cap">When words fail, music speaks. ...</h1>
+        <br>
+        <!-- <button class="btn">Shop More</button> -->
+        </div>
+        <div class="l">
+            <h1 class="title">Feel It</h1>
+            <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere est quos fugiat ratione eum animi at, veritatis fugit. Laboriosam adipisci ea itaque animi sequi maiores nisi blanditiis amet eum facilis pariatur iusto veritatis cum quam, nihil distinctio temporibus beatae provident? Nisi vero neque sint animi.</p>
+        </div>
+    </section>
+
+
+    <script>
+        gsap.from(".l",2,{
+            x:800,
+            opacity:0,
+            delay:5
+        })
+        gsap.from(".r",2,{
+            x:-800,
+            opacity:0,
+            delay:5
+        })
+       gsap.from(".sec",2,{
+        opacity:0,
+        delay:2,
+        y:1300
+       })
+    </script>
+</body>
+</html>

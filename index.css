@@ -1,0 +1,44 @@
+*{
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box; 
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.sec{
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("./yarenci-hdz-Tt_TIhVpYoM-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.r{
+    width: 50%;
+}
+.r{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.r .cap{
+    font: 80px;
+    text-transform: uppercase;
+}
+/*.r .btn{
+    padding: 10px;
+    background:red;
+    color: white;
+    box-shadow: inset 2px 2px 2px gray;
+} */
+.l{
+    text-align: center;
+    width: 40%;
+}
+.l .p1{
+    text-align: justify;
+}
